@@ -13,6 +13,7 @@ public class IndianTrafic  implements CentralTrafic, FromOtherPkg,signal {
 		a.RedGo();
 		a.YellowSignal();
 		
+		
 
 		
 		signal c=new IndianTrafic();
@@ -29,6 +30,7 @@ public class IndianTrafic  implements CentralTrafic, FromOtherPkg,signal {
 	public void bangaloreRule() {
 		// TODO Auto-generated method stub
 		System.out.println("bangalore rule");
+		System.out.println("updating for branch");
 	}
 
 
