@@ -13,6 +13,9 @@ public void childclass() {
 		//d.airCraft2();
 		d.aircraft3();
 		d.childclass();
+		d.airCraft(6);
+		d.rules();
+		
 		//demoAbstract e=new demoAbstract();//we cannot create object of the class which is defined as ABSTRACT CLAA
 	}
 
@@ -21,5 +24,15 @@ public void childclass() {
 		// TODO Auto-generated method stub
 		System.out.println("this is from demoabstract but override in abstractdemo2");
 	}
+
+	@Override
+	public void rules() {
+		
+		// TODO Auto-generated method stub
+		
+		System.out.println("updated ");
+	}
+	
+	
 
 }
